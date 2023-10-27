@@ -46,5 +46,6 @@
         "activityBar.background": "#2E3009",
         "titleBar.activeBackground": "#40430D",
         "titleBar.activeForeground": "#FAFBE9"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
