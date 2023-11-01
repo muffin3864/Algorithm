@@ -1,4 +1,5 @@
 # include <iostream>
+# include <algorithm>
 
 using namespace std;
 
@@ -13,5 +14,9 @@ int main()
     cin >> arr[i];
   }
 
-  min
+  sort(arr, arr + N);
+
+  cout << arr[0] << " " << arr[N - 1];
+
+  return 0;
 }
